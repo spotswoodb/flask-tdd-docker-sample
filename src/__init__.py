@@ -36,7 +36,7 @@ class Ping(Resource):
             'message': 'pong!'
         }
 
-import sys
-print(app.config, file=sys.stderr)
+# import sys
+# print(app.config, file=sys.stderr)
 
 api.add_resource(Ping, '/ping')
